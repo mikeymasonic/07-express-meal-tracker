@@ -14,7 +14,7 @@ describe('Recipes Model', () => {
       name: 'Falafel',
       ingredients: [{
         amount: 12,
-        measurement: 'ounces',
+        measurement: 'ounce',
         name: 'garbanzo beans'
       }
       ],
@@ -33,7 +33,7 @@ describe('Recipes Model', () => {
       ingredients: [{
         _id: expect.any(mongoose.Types.ObjectId),
         amount: 12,
-        measurement: 'ounces',
+        measurement: 'ounce',
         name: 'garbanzo beans'
       }],
       directions: [
